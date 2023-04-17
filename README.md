@@ -10,7 +10,7 @@
 ```bash
 npx degit jurgob/neru-ts-express-teamplate
 cd neru-ts-express-teamplate
-nvm use // if you are an nvm user, if not be sure you are on node 16
+nvm use #if you are an nvm user, if not be sure you are on node 16
 npm i
 ```
 

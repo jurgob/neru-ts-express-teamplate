@@ -1,0 +1,16 @@
+project:
+    name: clientsdk-demo-app
+instance:
+    name: dev
+    runtime: nodejs16
+    region: aws.euw1
+    application-id: <YOUR API KEY HERE>
+    entrypoint:
+        - npm
+        - start
+debug:
+    name: debug
+    entrypoint:
+        - npm
+        - run
+        - debug

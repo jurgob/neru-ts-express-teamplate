@@ -8,8 +8,8 @@
 ## install
 
 ```bash
-npx degit jurgob/neru-ts-express-teamplate
-cd neru-ts-express-teamplate
+npx degit jurgob/neru-ts-express-teamplate my_neru_project
+cd my_neru_project
 nvm use #if you are an nvm user, if not be sure you are on node 16
 npm i
 ```

@@ -4,7 +4,7 @@ instance:
     name: dev
     runtime: nodejs16
     region: aws.euw1
-    application-id: <YOUR API KEY HERE>
+    application-id: "{{NERU_APPLICATION_ID}}"
     entrypoint:
         - npm
         - start

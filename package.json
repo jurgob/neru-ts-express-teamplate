@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "start": "node dist/index.js",
-    "debug": "nodemon -r dotenv/config src/index.ts",
-    "dev": "neru debug",
+    "debug": "nodemon src/index.ts",
+    "dev": "source .env.local ; neru debug --app-id $NERU_APPLICATION_ID",
+    "prepare":"touch .env.local",
     "test": "jest --coverage",
     "build": "tsc",
     "deploy": "npm run build && neru deploy"
@@ -21,7 +22,6 @@
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",
     "@types/supertest": "^2.0.12",
-    "dotenv": "^16.0.3",
     "jest": "^29.5.0",
     "nodemon": "^2.0.22",
     "supertest": "^6.3.3",
